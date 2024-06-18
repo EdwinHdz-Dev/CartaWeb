@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +22,19 @@ body {
   perspective: 1000px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#header-text {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  color: #4B0082;
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-top: 130px;
+  text-transform: uppercase;
 }
 
 #drag-container,
@@ -64,7 +79,6 @@ body {
   position: absolute;
   top: 100%;
   left: 50%;
-
   -webkit-transform: translate(-50%, -50%) rotateX(90deg);
   transform: translate(-50%, -50%) rotateX(90deg);
   color: #4B0082;

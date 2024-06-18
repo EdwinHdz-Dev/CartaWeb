@@ -39,16 +39,17 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1.1;
-  margin-bottom: 36px;
+  margin-bottom: 20px;
   text-align: justify;
   padding-left: 50px;
+  margin-top: 20px;
 }
 
 .content p {
   color: #1C1C1C;
   font-family: "Gruppo", sans-serif;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 12.5px;
   line-height: 1.6;
   padding-right: 100px;
 }
@@ -276,4 +277,22 @@ main {
     width: 180px;
     height: 260px;
   }
+}
+
+.carrusel-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: linear-gradient(45deg, #B08AB4, #9260AD);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Happy Monkey", system-ui;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.carrusel-btn:hover {
+  background: linear-gradient(45deg, #9260AD, #B08AB4);
 }

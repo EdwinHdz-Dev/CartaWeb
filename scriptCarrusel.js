@@ -6,7 +6,7 @@ var imgWidth = 120;
 var imgHeight = 170; 
 
 
-var bgMusicURL = './La_Mujer_Perfecta.mp3';
+var bgMusicURL = './Un Amor Asi.mp3';
 var bgMusicControls = true; 
 
 setTimeout(init, 1000);
