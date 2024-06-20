@@ -37,6 +37,6 @@ function resetAutoplay() {
   autoplayInterval = setInterval(moveCard, 4000);
 }
 
-$('carrusel-btn').click(function () {
+$('#carrusel-btn').click(function(){
   window.location.href = 'indexCarrusel.html';
 });
